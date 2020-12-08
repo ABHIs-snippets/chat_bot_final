@@ -123,7 +123,7 @@ app.post('/api',(req,res)=>{
 
 //   // Create a new session
 //   const sessionClient = new dialogflow.SessionsClient({
-//       keyFilename:"D:/chat_bot/chat_bot/robo-chat-gxnh-089e091f2de7.json"});
+//       keyFilename:"(your key)"});
 //   const sessionPath = sessionClient.sessionPath(projectId, sessionId);
 
   
@@ -186,7 +186,7 @@ async function runSample(transcript,projectId = 'robo-chat-gxnh') {
 
   // Create a new session
   const sessionClient = new dialogflow.SessionsClient({
-      keyFilename:"./robo-chat-gxnh-089e091f2de7.json"});
+      keyFilename:"{Enter your key}"});
   const sessionPath = sessionClient.sessionPath(projectId, sessionId);
 
   
